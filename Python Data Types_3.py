@@ -1,0 +1,5 @@
+x = list(("apple", "banana", "cherry"))		
+x = tuple(("apple", "banana", "cherry"))		
+x = range(6)	
+x = dict(name="John", age=36)	
+x = set(("apple", "banana", "cherry"))	

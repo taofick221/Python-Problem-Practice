@@ -23,3 +23,7 @@ print(list1)
 print(list2)      
 print(list3)
 
+# practice
+
+thislist=["taofick","omar","eide"]
+print(thislist)
