@@ -11,7 +11,10 @@ print(list(range(1, 6)))
 print(list(range(5, 20, 3)))
 
 
-
+# Slicing Ranges
+r = range(10)
+print(r[2])
+print(r[:3])
 
 
 
