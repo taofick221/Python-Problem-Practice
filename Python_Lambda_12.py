@@ -29,3 +29,16 @@ print(max_value(10, 20))
 print(max_value(30, 15))
 
 
+
+# Using lambda with map function
+numbers = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x ** 2, numbers))
+print(squared)
+
+# Using lambda with filter function
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)
+
+
+
+
