@@ -1,8 +1,8 @@
 # Python Practice Repository
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/python-practice)
+
+
 
 ## Overview
 This repository contains a curated collection of Python exercises to improve programming and problem-solving skills. It covers basic to advanced topics including OOP, data structures, and algorithms. Suitable for beginners, students, and anyone looking to strengthen their Python knowledge.
