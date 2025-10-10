@@ -29,10 +29,6 @@ print(person2.greet())
 
 
 
-# Modify object properties
-person1.age = 31
-print(person1.greet())
-
 # Create another object of the Person class
 person2 = Person("Bob", 25)
 print(person2.greet())
