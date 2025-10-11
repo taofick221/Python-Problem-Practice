@@ -42,3 +42,31 @@ p1.printname()
 print(f"Age: {p1.age}")
 p1.welcome()
 
+
+
+
+
+
+
+# Problem: Employee Management
+# You need to make two classes — Employee (parent) and Manager (child).
+class Employee:
+    def __init__(self,name,salary):
+        self.firstname=name
+        self.salary=salary
+
+    def showInfo(self):
+        print(f"Name: {self.firstname}")
+        print(f"Salary: {self.salary}")
+        
+class Manager(Employee):
+    def __init__(self, name, salary,department):
+        super().__init__(name, salary)
+        self.department=department
+    def showInfo(self):
+        print(f"Name: {self.firstname}")
+        print(f"Salary: {self.salary}")   
+        print(f"Department: {self.department}")
+
+Manager =Manager("Taofick",25000,"IT")
+Manager.showInfo()
