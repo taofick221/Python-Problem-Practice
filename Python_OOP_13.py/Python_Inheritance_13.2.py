@@ -33,9 +33,12 @@ class student(person):
     def __init__(self, fname, lname):
         super().__init__(fname, lname)
         self.age=28
+    
+    def welcome(self):
+        print(f"Welcome to our university {self.firstname} {self.lastname}({self.age})")
 
 p1=student("Taofick","Mahmoodur Rahaman")
 p1.printname()
 print(f"Age: {p1.age}")
-
+p1.welcome()
 
