@@ -58,3 +58,16 @@ except KeyError:
 
 finally:
     print("Program finished.")
+
+
+
+# Grocery price checker
+fruits = ["apple", "banana", "cherry", "mango"]
+prices = {"apple": 100, "banana": 60, "cherry": 120}  
+for fruit in fruits:
+    try:
+        print(f"{fruit} price: {prices[fruit]} taka")
+    except KeyError:
+        print(f"Sorry! Price for {fruit} not found.")
+    finally:
+        print("Checked.\n")
