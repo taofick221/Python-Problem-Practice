@@ -71,3 +71,4 @@ for fruit in fruits:
         print(f"Sorry! Price for {fruit} not found.")
     finally:
         print("Checked.\n")
+        
