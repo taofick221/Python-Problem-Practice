@@ -29,13 +29,6 @@ print(person2.greet())
 
 
 
-# Create another object of the Person class
-person2 = Person("Bob", 25)
-print(person2.greet())
-
-
-
-
 # Use the words mysillyobject and abc instead of self
 
 class Person:
