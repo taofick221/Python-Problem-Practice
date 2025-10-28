@@ -1,6 +1,3 @@
-# Create a class 
-class MyClass:
-    x = 5
 
 # Create an object of the class
 my_object = MyClass()
