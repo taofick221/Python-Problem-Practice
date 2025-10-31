@@ -1,9 +1,3 @@
-# Lambda Functions in Python
-add = lambda a, b: a + b
-print(add(5, 3))
-
-
-
 
 # Lambda function with multiple parameters
 multiply = lambda x, y, z: x * y * z
