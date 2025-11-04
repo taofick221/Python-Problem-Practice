@@ -1,7 +1,4 @@
 
-# Lambda function with multiple parameters
-multiply = lambda x, y, z: x * y * z
-print(multiply(2, 3, 4))
 
 
 # Lambda function with no parameters
