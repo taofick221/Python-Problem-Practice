@@ -1,11 +1,6 @@
 
 
 
-# Lambda function with no parameters
-greet = lambda: "Hello, World!"
-print(greet())
-
-
 # Using lambda function inside another function
 def apply_operation(func, x, y):
     return func(x, y)
