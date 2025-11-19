@@ -9,11 +9,6 @@ result = apply_operation(lambda a, b: a - b, 10, 5)
 print(result)
 
 
-# Lambda function with conditional expression
-max_value = lambda a, b: a if a > b else b  
-print(max_value(10, 20))
-print(max_value(30, 15))
-
 
 
 
