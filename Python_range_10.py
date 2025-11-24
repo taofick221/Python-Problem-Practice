@@ -1,6 +1,4 @@
-# Python range 
-for x in range(2, 30, 3):  
-    print(x)
+
 
 # Test if the numbers 6 and 7 are present in a range
 
